@@ -8,12 +8,12 @@
     "install:doc": "cd doc && yarn install",
     "install:main": "cd main && yarn install",
     "install-all": "npm-run-all install:*",
-    "start:doc": "cd doc && npm run serve",
-    "start:main": "cd main && npm run serve",
+    "start:doc": "cd doc && yarn run serve",
+    "start:main": "cd main && yarn run serve",
     "start-all": "npm-run-all --parallel start:*",
     "serve-all": "npm-run-all --parallel start:*",
-    "build:doc": "cd doc && npm run build",
-    "build:main": "cd main && npm run build",
+    "build:doc": "cd doc && yarn run build",
+    "build:main": "cd main && yarn run build",
     "build-all": "npm-run-all --parallel build:*"
   },
   "devDependencies": {
